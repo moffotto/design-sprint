@@ -12,43 +12,48 @@
 
 <body>
     <header>
-        <h1>Informatics Student</h1>
-        <span>A Senior in the Informatics Programm at the University of Washington, seeking meaningful employment.</span>
-        <nav>
-            <ul>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> 
+            <ul class="navbar-nav mr-auto" id="navbarCollapse">
+                <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main role="main"> 
+        <br />
+        <hr class="featurette-divider">
+        <h1 class="featurette-heading">Informatics Student</h1>
+        <span>A Senior in the Informatics Programm at the University of Washington, seeking meaningful employment.</span>
+        <hr class="featurette-divider">
+
         <section id="interests">
             <h2>My Interests</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis nihil ipsam neque, necessitatibus
+            <p class='lead'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis nihil ipsam neque, necessitatibus
                 perspiciatis consequatur officiis inventore deserunt illum velit obcaecati. Impedit, rerum! Suscipit ab
                 vel voluptatibus assumenda debitis.</p>
         </section>
+        <hr class="featurette-divider">
         <section id="projects">
-            <h2>Projects</h2>
-            <div>
-                <div>
+            <h2 class="featurette-heading">Projects</h2>
+            <div class="row">
+                <div class="col-lg-4">
                     <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
+                    <p class='lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
                         quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur
                         voluptate odio omnis quod?</p>
                     <a href="">View Project</a>
                 </div>
-                <div>
+                <div class="col-lg-4">
                     <h3>Project 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
+                    <p class='lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
                         quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur
                         voluptate odio omnis quod?</p>
                     <a href="">View Project</a>
                 </div>
-                <div>
+                <div class="col-lg-4">
                     <h3>Project 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
+                    <p class='lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam tempore sint reiciendis
                         quis, quo soluta amet odit tempora voluptatem corporis animi optio ipsum eaque consequuntur
                         voluptate odio omnis quod?</p>
                     <a href="">View Project</a>
@@ -56,15 +61,17 @@
             </div>
 
         </section>
+        
         </section>
+        <hr class="featurette-divider">
         <section id="about">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate placeat debitis officia
+            <h2 class="featurette-heading">About</h2>
+            <p class='lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate placeat debitis officia
                 nesciunt similique iure temporibus, iste sapiente nemo possimus laborum impedit quaerat dolore. Placeat
                 quod officiis maxime rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quo. Impedit
                 molestiae quaerat omnis laboriosam deleniti iure sit dolore quasi quidem repudiandae. Quo inventore
                 tempora exercitationem assumenda asperiores doloremque molestiae.</p>
-            <img src="./imgs/College-Student-Discounts.jpg" alt="Personal profile picture">
+            <img class="featurette-image img-fluid mx-auto" src="./imgs/College-Student-Discounts.jpg" alt="Personal profile picture">
         </section>
     </main>
     <footer>
